@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Item</title>
+  	<!-- need meta viewport tag to allow for css media queries on mobile -->
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- character set -->
+    <meta charset="utf-8">
+    <!-- load React - note when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+    <!-- load babel transpiler to convert React's JSX markup to pure JavaScript
+         Note: we only need babel loaded in the browser if we are not using a build system 
+         where babel would save pure JS files to be loaded by the browser instead -->
+  	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <h1>Pizza</h1>
+    <!-- root element for react app -->
+	  <main id="app"></main>
+    <script src="/client" type="text/babel"></script>
+  </body>
+</html>
