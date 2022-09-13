@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "CS5513-Week04-Alaruthe",
+=======
+  "name": "CS5513-Week03-Alaruthe",
+>>>>>>> origin/main
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alaruthe/Week-4-Assignment-5-Draft-Basic-Full-Stack-App.git"
@@ -19,5 +24,16 @@
   "homepage": "https://github.com/Alaruthe/Week-4-Assignment-5-Draft-Basic-Full-Stack-App#readme",
   "dependencies": {
     "next": "^12.3.0"
+=======
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.2",
+    "gray-matter": "^4.0.3",
+    "next": "^12.3.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1"
+>>>>>>> origin/main
   }
 }
